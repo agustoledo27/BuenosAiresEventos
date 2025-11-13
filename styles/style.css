@@ -1,4 +1,4 @@
-/*Fuente Oswald*/
+/*Fuente Lora*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
 /*font-family: "Lora", serif;*/
 
@@ -17,7 +17,7 @@
 
 
 body{
-    font-family: "Lora", serif;;
+    font-family: "Lora", serif;
 }
 
 /*Estilos del header*/
@@ -260,5 +260,100 @@ footer{
         flex-direction: column;
         text-align: center;
         justify-content: center;
+    }
+}
+
+/*Medias queries"*/
+/*Laptop, Notebooks*/
+@media (max-width: 1200px) {
+    .navbar-brand img {
+        width: 180px; 
+        height: auto;
+    }
+
+    .d-flex.mx-auto {
+        display: none !important;
+    }
+
+    main h1 {
+        font-size: 60px;
+        padding: 15px;
+    }
+
+    main section p {
+        font-size: 24px; 
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .carousel-item img {
+        height: 500px; 
+        width: auto !important;
+    }
+
+    .li-nav {
+        font-size: 24px;
+    }
+
+    .form-control {
+        width: 250px !important;
+    }
+}
+
+/* Mobile y tablet */
+
+@media (max-width: 991px) {
+       .navbar-brand img {
+        width: 150px; 
+        height: auto;
+    }
+
+    .d-flex.mx-auto {
+        display: none !important;
+    }
+
+    .ul-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
+    }
+    .li-nav {
+        font-size: 20px;
+        width: 100%; 
+        text-align: left;
+    }
+    .a-nav.nav-link.active,
+    .a-nav.nav-link {
+        text-align: left; 
+        padding-left: 10px;
+    }
+
+    main h1 {
+        font-size: 40px;
+    }
+
+    .carousel-item img {
+        height: 300px; 
+        width: 100% !important; 
+        padding: 10px 0;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-div > div:nth-child(2) {
+        margin: 10px 0; 
+    }
+
+    .p-footer {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    .footer-div .p-footer a {
+        display: inline-block;
+        margin: 0 5px;
     }
 }
