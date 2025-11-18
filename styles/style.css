@@ -176,7 +176,7 @@ section{
 .section-historia{
     display: flex; 
     flex-direction: row; 
-    justify-content: space-around; /* Centra el bloque total (imagen + texto) */
+    justify-content: space-around; 
     gap: 20px;
     max-width: 1400px; 
     margin: 20px auto; 
@@ -187,10 +187,10 @@ section{
     display: block;
 }
 .p-historia{
-    text-align: left; /* Alineamiento correcto para el texto */
+    text-align: left;
     color: #172531;
     font-size: 34px;
-    margin-bottom: 20px; /* Agrega espacio entre párrafos */
+    margin-bottom: 20px; 
 }
 
 
@@ -319,7 +319,41 @@ footer{
     .form-control {
         width: 120px !important;
     }
+/* Página Historia */
+    .section-historia {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+    }
+    .section-historia img {
+        max-width: 80%;
+        height: auto;
+    }
+    .p-historia {
+        font-size: 20px;
+        text-align: center;
+    }
+
+/* Páginas Eventos y Espacios */
+    .li-main img {
+        max-width: 300px;
+        height: auto;
+    }
+    .li-main h2 {
+        font-size: 30px;
+    }
+
+/* Página Contacto */
+    .grid-form {
+        grid-template-columns: 1fr 1fr;
+        max-width: 700px;
+    }
+    .grid-form .mb-3:nth-of-type(3),
+    .grid-form .mb-3:nth-of-type(4) {
+        grid-column: 1 / 3;
+    }
 }
+
 
 /* Mobile y tablet */
 
@@ -376,5 +410,49 @@ footer{
     .footer-div .p-footer a {
         display: inline-block;
         margin: 0 5px;
+    }
+
+/* Página Historia */
+    .section-historia {
+        flex-direction: column;
+        max-width: 95%;
+    }
+    .section-historia img {
+        max-width: 100%;
+        height: auto;
+    }
+    .p-historia {
+        font-size: 18px;
+        text-align: justify;
+        padding: 0 10px;
+    }
+
+/* Páginas Eventos y Espacios */
+    .li-main img {
+        max-width: 250px;
+        height: auto;
+    }
+    .li-main h2 {
+        font-size: 24px;
+    }
+    .ul-main {
+        margin-right: 0;
+}
+
+/* Página Contacto */
+    .grid-form {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+        margin: 30px auto;
+    }
+    .grid-form .col {
+        grid-column: 1 / 2;
+    }
+    .grid-form .mb-3:nth-of-type(3),
+    .grid-form .mb-3:nth-of-type(4) {
+        grid-column: 1 / 2;
+    }
+    .grid-form .form-submit {
+        grid-column: 1 / 2;
     }
 }
