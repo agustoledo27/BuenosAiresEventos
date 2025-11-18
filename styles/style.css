@@ -172,6 +172,26 @@ section{
 
 }
 
+/* Pagina Historia */
+.section-historia{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; /* Centra el bloque total (imagen + texto) */
+    gap: 20px;
+    max-width: 1400px; 
+    margin: 20px auto; 
+    padding: 20px;
+}
+
+.div-historia {
+    display: block;
+}
+.p-historia{
+    text-align: left; /* Alineamiento correcto para el texto */
+    color: #172531;
+    font-size: 34px;
+    margin-bottom: 20px; /* Agrega espacio entre párrafos */
+}
 
 
 /*Estilos del footer*/
