@@ -20,9 +20,14 @@ body{
     font-family: "Lora", serif;
 }
 
+
+html, body {
+   overflow-x: hidden;
+}
+
 /*Estilos del header*/
 header{
-   /*display: flex;*/
+    /*display: flex;*/
     background-color:#F8F4E3;
     margin: 0px;
     /*align-items: center;
@@ -265,7 +270,7 @@ footer{
 
 /*Medias queries"*/
 /*Laptop, Notebooks*/
-@media (max-width: 1200px) {
+@media (max-width: 1440px) {
     .navbar-brand img {
         width: 100px; 
         height: auto;
