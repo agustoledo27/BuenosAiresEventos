@@ -1,0 +1,13 @@
+// 1. Utilities
+@import './partials/utilities/variables';
+
+// 2. Base
+@import './partials/base/reset';     
+@import './partials/base/tipografias';
+
+// 3. Components
+@import './partials/components/header';
+@import './partials/components/main';
+@import './partials/components/forms';
+@import './partials/components/footer';
+@import './partials/components/mediasqueries';

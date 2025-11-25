@@ -1,0 +1,33 @@
+footer {
+    background-color: $color-crema;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+
+    // Seleccionamos el segundo div hijo directo
+    > div:nth-child(2) {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .p-footer {
+        text-align: left;
+        color: #080807; // Este color no estaba en la paleta, podrías crear variable
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+
+        a {
+            display: block;
+            margin-bottom: 5px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #080807; 
+        }
+    }
+}

@@ -1,0 +1,71 @@
+header {
+    background-color: $color-crema;
+    margin: 0px;
+
+    a {
+        margin: 10px;
+    }
+}
+
+.navbar {
+    background-color: $color-crema;
+    
+    // Icono hamburguesa
+    &-toggler-icon {
+        background-image: url(../assets/img/logocopa.png);
+        background-color: transparent;
+        width: 50px; 
+        height: 50px;
+        border: none;
+    }
+}
+
+nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center; 
+    }
+}
+
+// Elementos de navegación
+.li-nav {
+    list-style-type: none;
+    font-size: 34px; 
+    border: none;
+    border-radius: 5px; 
+    gap: 20px;
+}
+
+.a-nav {
+    &.nav-link {
+        text-decoration: none;
+        text-align: end;
+        color: $color-azul-medio;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        // Estado Hover anidado con '&'
+        &:hover {
+            background-color: transparent;
+            color: $color-negro;             
+            box-shadow: 0 0 20px $color-gris-sombra;
+            text-decoration: underline;
+        }
+        
+    }
+}
+
+// Botones y Formularios del header
+.btn {
+    color: $color-azul-medio;
+    border-color: $color-azul-medio;
+    text-transform: uppercase;
+}
+
+.form-control {
+    text-transform: uppercase;
+    width: 100%;
+}
