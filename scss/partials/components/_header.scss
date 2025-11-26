@@ -4,15 +4,15 @@ header {
 
     a {
         margin: 10px;
-        width: 234px;
-        height: 187px; 
+       
     }
 }
-.a {
-    &navbar-logo {
+.navbar-logo {
        background-color: #F8F4E3;
+       width: 234px !important;
+       height: 187px !important; 
     }
-}
+
 .navbar {
     background-color: $color-crema;
     
