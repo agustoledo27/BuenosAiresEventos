@@ -155,18 +155,21 @@ p {
 .section-historia {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 20px;
-  max-width: 1400px;
   margin: 20px auto;
   padding: 20px;
 }
-
-.div-historia {
-  display: block;
+.section-historia .div-historia {
+  display: flex;
 }
-
-.p-historia {
+.section-historia a .img-hist {
+  width: 400px !important;
+  height: 600px !important;
+  border-radius: 10px;
+  display: block !important;
+}
+.section-historia .p-historia {
   text-align: left;
   color: #172531;
   font-size: 34px;

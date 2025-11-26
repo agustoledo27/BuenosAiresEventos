@@ -87,20 +87,27 @@ p {
 .section-historia {
     display: flex; 
     flex-direction: row; 
-    justify-content: space-around; 
+    justify-content: space-between; 
     gap: 20px;
-    max-width: 1400px; 
     margin: 20px auto; 
     padding: 20px;
+
+    .div-historia {
+    display: flex;
 }
 
-.div-historia {
-    display: block;
+    a .img-hist {
+    width: 400px !important;
+    height: 600px !important;
+    border-radius: 10px;
+    display: block !important;
 }
 
-.p-historia {
+    .p-historia {
     text-align: left;
     color: variables.$color-azul-oscuro;
     font-size: 34px;
     margin-bottom: 20px; 
 }
+}
+
