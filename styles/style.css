@@ -100,7 +100,9 @@ main section img {
 }
 
 p {
-  text-align: right;
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
   color: #172531;
   font-size: 34px;
 }
@@ -126,6 +128,12 @@ p {
   height: auto;
 }
 .li-main h2 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 60px;
+  padding: 5px 0;
+}
+.li-main h3 {
   margin: 30px 0;
   text-align: center;
   font-size: 60px;
