@@ -32,14 +32,8 @@
 
     // Historia
     .section-historia {
-        flex-direction: column;
-        align-items: center;
         max-width: 90%;
         
-        img {
-            max-width: 80%;
-            height: auto;
-        }
     }
     .p-historia {
         font-size: 20px;
@@ -143,11 +137,11 @@
     // Historia
     .section-historia {
         flex-direction: column;
-        max-width: 95%;
+        align-items: center;
 
-        img {
-            max-width: 100%;
-            height: auto;
+    img {
+         width: 70%;
+         height: 70%;
         }
     }
     .p-historia {
