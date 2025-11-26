@@ -1,5 +1,7 @@
+@use '../utilities/variables';
+
 footer {
-    background-color: $color-crema;
+    background-color: variables.$color-crema;
 }
 
 .footer-div {

@@ -1,10 +1,12 @@
+@use '../utilities/variables';
+
 main {
-    background-color: $color-azul-claro;
-    border-bottom: 30px solid $color-azul-claro;
+    background-color: variables.$color-azul-claro;
+    border-bottom: 30px solid variables.$color-azul-claro;
 
     h1 {
         text-align: center;
-        color: $color-azul-oscuro;
+        color: variables.$color-azul-oscuro;
         font-size: 95px;
         margin-top: 0px;
     }
@@ -24,7 +26,7 @@ main {
 
 p {
     text-align: right;
-    color: $color-azul-oscuro;
+    color: variables.$color-azul-oscuro;
     font-size: 34px;
 }
 
@@ -75,7 +77,7 @@ p {
 
 .p-historia {
     text-align: left;
-    color: $color-azul-oscuro;
+    color: variables.$color-azul-oscuro;
     font-size: 34px;
     margin-bottom: 20px; 
 }

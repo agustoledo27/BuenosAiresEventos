@@ -1,13 +1,13 @@
 // 1. Utilities
-@import './partials/utilities/variables';
+@use './partials/utilities/variables';
 
 // 2. Base
-@import './partials/base/reset';     
-@import './partials/base/tipografias';
+@use './partials/base/reset';
+@use './partials/base/tipografias';
 
 // 3. Components
-@import './partials/components/header';
-@import './partials/components/pages';
-@import './partials/components/forms';
-@import './partials/components/footer';
-@import './partials/components/mediasqueries';
+@use './partials/components/header';
+@use './partials/components/pages';
+@use './partials/components/forms';
+@use './partials/components/footer';
+@use './partials/components/mediasqueries';
