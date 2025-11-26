@@ -12,8 +12,8 @@ header {
 }
 .navbar-logo {
        background-color: #F8F4E3;
-       width: 234px !important;
-       height: 187px !important; 
+       width: 234px;
+       height: 187px; 
     }
 
 .navbar {
@@ -72,6 +72,8 @@ nav {
     color: variables.$color-azul-medio;
     border-color: variables.$color-azul-medio;
     text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .form-control {

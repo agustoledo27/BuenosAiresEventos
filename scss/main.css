@@ -22,8 +22,8 @@ header a {
 
 .navbar-logo {
   background-color: #F8F4E3;
-  width: 234px !important;
-  height: 187px !important;
+  width: 234px;
+  height: 187px;
 }
 
 .navbar {
@@ -67,10 +67,12 @@ nav ul {
   text-decoration: underline;
 }
 
-.btn {
+.btn-buscar {
   color: #2C4657;
   border-color: #2C4657;
   text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .form-control {
@@ -98,6 +100,10 @@ main section img {
   margin: 0 auto;
   padding: 20px;
 }
+main section .img-carrusel {
+  width: 100%;
+  height: auto;
+}
 
 p {
   text-align: center;
@@ -105,6 +111,12 @@ p {
   padding: 20px;
   color: #172531;
   font-size: 34px;
+}
+
+.btn-presup {
+  color: #172531;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .ul-main {
@@ -224,13 +236,13 @@ footer {
   color: #080807;
 }
 
-@media (max-width: 1440px) {
-  .navbar-brand img {
-    width: 100px;
+@media (min-width: 992px) {
+  .navbar-logo {
+    width: 120px;
     height: auto;
   }
   main h1 {
-    font-size: 60px;
+    font-size: 50px;
     padding: 15px;
   }
   main section p {
@@ -238,9 +250,9 @@ footer {
     text-align: center;
     padding: 0 15px;
   }
-  .carousel-item img {
-    height: 500px;
-    width: auto !important;
+  .img-carrusel {
+    height: 470px !important;
+    width: 100%;
   }
   .li-nav {
     font-size: 18px;
@@ -284,8 +296,8 @@ footer {
     justify-content: center;
     margin-right: 0;
   }
-  .navbar-brand img {
-    width: 80px;
+  .navbar-logo {
+    width: 90px;
     height: auto;
   }
   .d-flex.mx-auto {
@@ -308,10 +320,15 @@ footer {
   main h1 {
     font-size: 40px;
   }
-  .carousel-item img {
-    height: 300px;
-    width: 100% !important;
-    padding: 10px 0;
+  section p {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .img-carrusel {
+    height: 150px;
+    width: 100%;
+    padding: 10px 10px;
   }
   .footer-div {
     flex-direction: column;
@@ -358,7 +375,7 @@ footer {
     grid-column: 1/2;
   }
 }
-@media (min-width: 992px) {
+@media (max-width: 2560px) {
   .ul-main {
     flex-direction: row;
   }

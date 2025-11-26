@@ -23,8 +23,8 @@ main {
         }
 
         .img-carrusel{
-            width: 1400px;
-            height: 700px;
+            width: 100%;
+            height: auto;
 
         }
     }
@@ -40,7 +40,9 @@ p {
 }
 
 .btn-presup{
-    color: variables.$color-azul-oscuro;;
+    color: variables.$color-azul-oscuro;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 
