@@ -67,7 +67,7 @@ nav ul {
   text-decoration: underline;
 }
 
-.btn {
+.btn-buscar {
   color: #2C4657;
   border-color: #2C4657;
   text-transform: uppercase;
@@ -98,6 +98,10 @@ main section img {
   margin: 0 auto;
   padding: 20px;
 }
+main section .img-carrusel {
+  width: 1400px;
+  height: 700px;
+}
 
 p {
   text-align: center;
@@ -105,6 +109,10 @@ p {
   padding: 20px;
   color: #172531;
   font-size: 34px;
+}
+
+.btn-presup {
+  color: #172531;
 }
 
 .ul-main {

@@ -21,8 +21,15 @@ main {
             margin: 0 auto;
             padding: 20px;
         }
+
+        .img-carrusel{
+            width: 1400px;
+            height: 700px;
+
+        }
     }
 }
+
 
 p {
     text-align: center;
@@ -31,6 +38,11 @@ p {
     color: variables.$color-azul-oscuro;
     font-size: 34px;
 }
+
+.btn-presup{
+    color: variables.$color-azul-oscuro;;
+}
+
 
 // Listas dentro del Main (Eventos/Espacios)
 .ul-main {
