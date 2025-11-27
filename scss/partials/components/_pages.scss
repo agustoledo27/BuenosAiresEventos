@@ -41,11 +41,70 @@ p {
 .btn-presup{
     color: variables.$color-azul-oscuro;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 
 // Listas dentro del Main (Eventos/Espacios)
+
+.section-eventos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    ;
+
+    .card-eventos {
+        background-color: variables.$color-azul-oscuro;
+        border-radius: 10px;
+        padding: 20px;
+        width: 18rem;
+        display: flex; 
+        flex-direction: column; 
+    }
+
+    .card-eventos div {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    h5 {
+        font-size: 30px;
+        margin: 20px 0;
+        color: variables.$color-dorado;
+    }
+
+    p {
+        font-size: 10px;
+        margin: 0 10px;
+        color: variables.$color-crema;
+        flex-grow: 1;
+    }
+
+    .btn-eventos {
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        color: variables.$color-azul-medio;
+        text-decoration: none;
+        background-color: variables.$color-dorado; // AÑADIR COLOR DE FONDO
+        border: 1px solid variables.$color-dorado; // DEFINIR EL BORDE DEL COLOR
+        display: inline-block;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+        .btn-eventos:hover {
+        background-color: darken(variables.$color-dorado, 10%); // Usando una función de SASS
+        border-color: darken(variables.$color-dorado, 10%);
+        color: variables.$color-azul-oscuro; // Cambiamos el color de texto al hacer hover
+    }
+}
 .ul-main {
     display: flex;
     justify-content: space-around;
