@@ -55,16 +55,20 @@ p {
     text-align: center;
     margin: 0 auto;
     padding: 20px;
-    gap: 20px;
-    ;
+    gap: 40px;
+   
+
+    
 
     .card-eventos {
         background-color: variables.$color-azul-oscuro;
         border-radius: 10px;
         padding: 20px;
+        height: 55rem;
         width: 18rem;
         display: flex; 
-        flex-direction: column; 
+        flex-direction: column;
+        
     }
 
     .card-eventos div {
@@ -91,56 +95,37 @@ p {
         margin-top: 15px;
         padding: 10px;
         border-radius: 5px;
+        font-size: 20px;
         color: variables.$color-azul-medio;
         text-decoration: none;
-        background-color: variables.$color-dorado; // AÑADIR COLOR DE FONDO
-        border: 1px solid variables.$color-dorado; // DEFINIR EL BORDE DEL COLOR
+        background-color: variables.$color-dorado; 
+        border: 1px solid variables.$color-dorado; 
         display: inline-block;
         border: 1px solid transparent;
         cursor: pointer;
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
         .btn-eventos:hover {
-        background-color: darken(variables.$color-dorado, 10%); // Usando una función de SASS
+        background-color: darken(variables.$color-dorado, 10%);
         border-color: darken(variables.$color-dorado, 10%);
-        color: variables.$color-azul-oscuro; // Cambiamos el color de texto al hacer hover
+        color: variables.$color-azul-oscuro; 
+        transform: translate(2px, 2px);
+        //transform: scale(1.2);
     }
+
+    .card-espacios {
+        background-color: variables.$color-azul-oscuro;
+        border-radius: 10px;
+        padding: 20px;
+        height: 55rem;
+        width: 28rem;
+        display: flex; 
+        flex-direction: column; 
+    }
+
 }
-.ul-main {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-right: 50px;
-}
 
-.li-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    list-style-type: none;
-    text-transform: uppercase;
-    gap: 20px;
 
-    img {
-        display: flex;
-        max-width: 700px;
-        height: auto;
-    }
-
-    h2 {
-        margin: 30px 0; 
-        text-align: center;
-        font-size: 60px;
-        padding: 5px 0;
-    }
-
-     h3 {
-        margin: 30px 0; 
-        text-align: center;
-        font-size: 60px;
-        padding: 5px 0;
-    }
-}
 
 // Página Historia
 .section-historia {
@@ -165,6 +150,7 @@ p {
     display: block;
 }
     h2 { 
+        font-size: 30px;
         margin: 30px 0;
     }
 

@@ -12,12 +12,14 @@ header {
 }
 .navbar-logo {
        background-color: #F8F4E3;
+       //background-image: linear-gradient(to bottom,#F8F4E3, #f3bd68);
        width: 234px;
        height: 187px; 
     }
 
 .navbar {
     background-color: variables.$color-crema;
+    //background-image: linear-gradient(to bottom,#F8F4E3, #f3bd68);
     
     // Icono hamburguesa
     &-toggler-icon {
