@@ -1,5 +1,37 @@
+// Desktop Grande
+@media (min-width:1600px) and (max-width: 2560px) { 
+    .ul-main {
+        flex-direction: row;
+    }
+
+     .img-carrusel {
+        height: 600px; 
+        width: 100%;
+    }
+
+     // Historia
+    .section-historia {
+
+    h2 { 
+        font-size: 45px;
+    }
+
+    .p-historia {
+    font-size: 25px;
+    
+    }
+  }
+
+    // Eventos
+    .section-eventos {
+        .card-eventos {
+            width: 24rem;
+        }
+    }
+}
+
 // Notebooks y Laptops
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1440px) {
     .navbar-logo {
         width: 120px; 
         height: auto;
@@ -40,17 +72,7 @@
         text-align: center;
     }
 
-    // Eventos
-    .li-main {
-        img {
-            max-width: 300px;
-            height: auto;
-        }
-        h2 {
-            font-size: 30px;
-        }
-    }
-
+   
     // Contacto
     .grid-form {
         grid-template-columns: 1fr 1fr;
@@ -173,9 +195,3 @@
     }
 }
 
-// Desktop Grande
-@media (max-width: 2560px) { 
-    .ul-main {
-        flex-direction: row;
-    }
-}
