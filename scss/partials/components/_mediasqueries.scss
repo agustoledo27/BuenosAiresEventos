@@ -13,11 +13,11 @@
     .section-historia {
 
     h2 { 
-        font-size: 45px;
+        font-size: 50px;
     }
 
     .p-historia {
-    font-size: 25px;
+    font-size: 32px;
     
     }
   }
@@ -25,7 +25,16 @@
     // Eventos
     .section-eventos {
         .card-eventos {
-            width: 24rem;
+            height: 75rem;
+            width: 25rem;
+        }
+         p {
+        font-size: 20px;
+        }
+
+        .card-espacios {
+            height: 55rem;
+            width: 28rem;
         }
     }
 }

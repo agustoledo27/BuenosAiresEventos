@@ -132,6 +132,7 @@ p {
   background-color: #172531;
   border-radius: 10px;
   padding: 20px;
+  height: 55rem;
   width: 18rem;
   display: flex;
   flex-direction: column;
@@ -170,6 +171,15 @@ p {
   background-color: rgb(239.245398773, 168.3496932515, 56.754601227);
   border-color: rgb(239.245398773, 168.3496932515, 56.754601227);
   color: #172531;
+}
+.section-eventos .card-espacios {
+  background-color: #172531;
+  border-radius: 10px;
+  padding: 20px;
+  height: 55rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-historia {
@@ -275,13 +285,21 @@ footer {
     width: 100%;
   }
   .section-historia h2 {
-    font-size: 45px;
+    font-size: 50px;
   }
   .section-historia .p-historia {
-    font-size: 25px;
+    font-size: 32px;
   }
   .section-eventos .card-eventos {
-    width: 24rem;
+    height: 75rem;
+    width: 25rem;
+  }
+  .section-eventos p {
+    font-size: 20px;
+  }
+  .section-eventos .card-espacios {
+    height: 55rem;
+    width: 28rem;
   }
 }
 @media (min-width: 992px) and (max-width: 1440px) {
