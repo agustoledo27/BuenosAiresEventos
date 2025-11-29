@@ -1,5 +1,5 @@
 @use '../utilities/variables';
-
+@use 'sass:color';
 main {
     background-color: variables.$color-azul-claro;
     border-bottom: 30px solid variables.$color-azul-claro;
@@ -105,12 +105,11 @@ p {
         cursor: pointer;
         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-        .btn-eventos:hover {
-        background-color: darken(variables.$color-dorado, 10%);
-        border-color: darken(variables.$color-dorado, 10%);
+        .btn-eventos:hover { 
+        background-color: color.adjust(variables.$color-dorado, $lightness: -10%);
+        border-color: color.adjust(variables.$color-dorado, $lightness: -10%);
         color: variables.$color-azul-oscuro; 
         transform: translate(2px, 2px);
-        //transform: scale(1.2);
     }
 
     .card-espacios {
