@@ -495,12 +495,8 @@ footer {
     text-align: justify;
     padding: 0 10px;
   }
-  .li-main img {
-    max-width: 250px;
-    height: auto;
-  }
-  .li-main h2 {
-    font-size: 24px;
+  .section-eventos {
+    flex-direction: column;
   }
   .grid-form {
     grid-template-columns: 1fr;

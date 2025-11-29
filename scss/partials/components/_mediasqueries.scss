@@ -188,15 +188,15 @@
     }
 
     // Eventos
-    .li-main {
-        img {
-            max-width: 250px;
-            height: auto;
-        }
-        h2 {
-            font-size: 24px;
-        }
-    }
+    .section-eventos {
+    flex-direction: column;
+}
+
+    //Espacios
+    .card-espacios {
+        width: 18rem;
+      
+}
 
     // Contacto
     .grid-form {
