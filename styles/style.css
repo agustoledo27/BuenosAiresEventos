@@ -291,14 +291,16 @@ footer {
 
 .footer-div {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: start;
   width: 100%;
-  padding: 20px 0;
+  padding: 20px;
 }
-.footer-div > div:nth-child(2) {
-  text-align: center;
+.footer-div > div:nth-child(3) {
+  text-align: right;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
 }
 .footer-div .p-footer {
   text-align: left;
@@ -308,11 +310,28 @@ footer {
   flex-direction: column;
 }
 .footer-div .p-footer a {
-  display: block;
+  display: flex;
+  font-size: 20px;
   margin-bottom: 5px;
+  margin-right: 20px;
   text-decoration: none;
   text-transform: uppercase;
   color: #080807;
+}
+
+/* Mapa */
+.mapa-container {
+  display: flex;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.mapa-container iframe {
+  border-radius: 5px;
+  border: none;
 }
 
 @media (min-width: 1600px) and (max-width: 2560px) {
