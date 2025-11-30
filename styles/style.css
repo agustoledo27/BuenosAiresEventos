@@ -16,33 +16,30 @@ header {
   background-color: #F8F4E3;
   margin: 0px;
 }
-header a {
-  margin: 10px;
-}
-
-.navbar-logo {
-  background-color: #F8F4E3;
-  width: 234px;
-  height: 187px;
-}
-
-.navbar {
-  background-color: #F8F4E3;
-}
-.navbar-toggler-icon {
-  background-image: url(../assets/img/logocopa.png);
-  background-color: transparent;
-  width: 50px;
-  height: 50px;
-  border: none;
-}
-
-nav ul {
+header nav ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
   align-items: center;
+}
+header a {
+  margin: 10px;
+}
+header .navbar-logo {
+  background-color: #F8F4E3;
+  width: 234px;
+  height: 187px;
+}
+header .navbar {
+  background-color: #F8F4E3;
+}
+header .navbar-toggler-icon {
+  background-image: url(../assets/img/logocopa.png);
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  border: none;
 }
 
 .li-nav {
@@ -326,8 +323,7 @@ h2 {
 footer {
   background-color: #F8F4E3;
 }
-
-.footer-div {
+footer .footer-div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -335,19 +331,19 @@ footer {
   width: 100%;
   padding: 20px;
 }
-.footer-div > div:nth-child(3) {
+footer .footer-div > div:nth-child(3) {
   text-align: right;
   margin-left: auto;
   margin-right: 0;
 }
-.footer-div .p-footer {
+footer .footer-div .p-footer {
   text-align: left;
   color: #080807;
   font-size: 20px;
   display: flex;
   flex-direction: column;
 }
-.footer-div .p-footer a {
+footer .footer-div .p-footer a {
   display: flex;
   font-size: 20px;
   margin-bottom: 5px;
@@ -366,8 +362,7 @@ footer {
   margin-top: 5px;
   box-sizing: border-box;
 }
-
-.mapa-container iframe {
+.mapa-container .mapa-container iframe {
   border-radius: 5px;
   border: none;
 }

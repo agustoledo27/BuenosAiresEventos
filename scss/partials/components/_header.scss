@@ -5,19 +5,29 @@ header {
     background-color: variables.$color-crema;
     margin: 0px;
 
+    nav {
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        align-items: center; 
+    }
+ }
+
     a {
         margin: 10px;
        
     }
-}
-.navbar-logo {
+
+    .navbar-logo {
        background-color: #F8F4E3;
        //background-image: linear-gradient(to bottom,#F8F4E3, #f3bd68);
        width: 234px;
        height: 187px; 
     }
 
-.navbar {
+   .navbar {
     background-color: variables.$color-crema;
     //background-image: linear-gradient(to bottom,#F8F4E3, #f3bd68);
     
@@ -29,17 +39,10 @@ header {
         height: 50px;
         border: none;
     }
+   }
 }
 
-nav {
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-        align-items: center; 
-    }
-}
+
 
 // Elementos de navegación
 .li-nav {

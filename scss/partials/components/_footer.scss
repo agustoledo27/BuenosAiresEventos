@@ -2,15 +2,14 @@
 
 footer {
     background-color: variables.$color-crema;
-}
 
-.footer-div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-    padding: 20px;
+    .footer-div {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: start;
+      width: 100%;
+      padding: 20px;
 
     //> div:nth-child(1) {
         //flex: 1 1 auto; 
@@ -40,6 +39,7 @@ footer {
             color: #080807; 
         }
     }
+ } 
 }
 
 /* Mapa */
@@ -50,9 +50,13 @@ footer {
   padding: 0; 
   margin-top: 5px; 
   box-sizing: border-box;
-}
-
-.mapa-container iframe {
+  
+  .mapa-container iframe {
   border-radius: 5px; 
   border: none;
 }
+
+
+}
+
+
