@@ -1,5 +1,6 @@
 @use '../utilities/variables';
 @use 'sass:color';
+@use '../utilities/mixins';
 
 .div-contacto {
     text-align: center;
@@ -48,21 +49,7 @@
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
-        font-size: 20px;
-        color: variables.$color-azul-medio;
-        text-decoration: none;
-        background-color: variables.$color-dorado; 
-        border: 1px solid variables.$color-dorado; 
-        display: inline-block;
-        border: 1px solid transparent;
-        cursor: pointer;
-        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-     }
-        .submit-button:hover {   
-        background-color: color.adjust(variables.$color-dorado, $lightness: -10%);
-        border-color: color.adjust(variables.$color-dorado, $lightness: -10%);
-        color: variables.$color-azul-oscuro; 
-        transform: translate(2px, 2px);
+        @include mixins.event-button();
     }
 
     .form-group {

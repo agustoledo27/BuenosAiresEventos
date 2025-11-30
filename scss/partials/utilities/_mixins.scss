@@ -1,0 +1,23 @@
+@use 'variables'; 
+@use 'sass:color'; 
+
+
+@mixin event-button() {
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  color: variables.$color-azul-medio;
+  background-color: variables.$color-dorado; 
+  border: 1px solid variables.$color-dorado;
+  
+
+  &:hover { 
+    background-color: color.adjust(variables.$color-dorado, $lightness: -10%);
+    border-color: color.adjust(variables.$color-dorado, $lightness: -10%);
+    color: variables.$color-azul-oscuro; 
+    transform: translate(2px, 2px);
+  }
+}

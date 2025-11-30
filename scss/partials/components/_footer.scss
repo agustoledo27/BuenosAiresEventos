@@ -1,9 +1,8 @@
 @use '../utilities/variables';
 
-footer {
-    background-color: variables.$color-crema;
 
-    .footer-div {
+.footer-div {
+      background-color: variables.$color-crema;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -40,7 +39,7 @@ footer {
         }
     }
  } 
-}
+
 
 /* Mapa */
 .mapa-container {
