@@ -10,6 +10,8 @@
      <link rel="stylesheet" href="./styles/style.css">
      <!-- Animates -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+     <!-- AOS -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -94,30 +96,33 @@
               <button type="button" class="btn-presup :hover" onclick="window.location.href='pages/contacto.html'">SOLICITAR PRESUPUESTO</button>
             </div>
         </section>
-              
-       <h2>Momentos inolvidables</h2>
-       <p>Mira cómo la magia cobra vida en cada cumpleaños, boda o reunión corporativa en nuestro salón.</p>
-       <section class="section-videos">
-            <div class="div-video">
+        <section class="sectionfondo">
+              <div class="div-textvideo">
+                 <h2 class="h2-video">Momentos inolvidables</h2>
+                 <p class="p-video">Mira cómo la magia cobra vida en cada cumpleaños, boda o reunión corporativa en nuestro salón.</p>
+              </div>
+          <section class="section-videos">
+             <div class="div-video" data-aos="fade-up">
                <video autoplay loop muted playsinline poster="videos/imagen_previo.jpg">
                  <source src="../assets/media/VIDEO1SINAUDIO.mp4" type="video/mp4">
                </video>
-            </div>
-            <div class="div-video">
+             </div>
+             <div class="div-video" data-aos="fade-up">
                <video autoplay loop muted playsinline poster="videos/imagen_previo.jpg">
                  <source src="../assets/media/VIDEO2SINAUDIO.mp4" type="video/mp4">
                </video>
-            </div>
-            <div class="div-video">
+             </div>
+             <div class="div-video" data-aos="fade-up">
                <video autoplay loop muted playsinline poster="videos/imagen_previo.jpg">
                  <source src="../assets/media/VIDEO3SINAUDIO.mp4" type="video/mp4">
                </video>
-            </div>
-            <div class="div-video">
+             </div>
+             <div class="div-video" data-aos="fade-up">
                <video autoplay loop muted playsinline poster="videos/imagen_previo.jpg">
                  <source src="../assets/media/VIDEO4SINAUDIO.mp4" type="video/mp4">
                </video>
-            </div> 
+             </div> 
+          </section>
          </section>
     </main>
 
@@ -148,6 +153,11 @@
 
  <!-- Bootstrap JS-->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>  
+ <!-- AOS -->
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+ </script>
 </body>
 
 </html>

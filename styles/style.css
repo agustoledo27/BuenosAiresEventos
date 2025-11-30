@@ -123,20 +123,37 @@ h2 {
   margin-top: 30px;
 }
 
+.sectionfondo {
+  background-color: #172531;
+  margin-top: 20px;
+}
+
 .section-videos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 15px;
-  margin-top: 30px;
+  background-color: #172531;
 }
 .section-videos .div-video {
+  margin: 20px;
   width: 300px;
   height: 400px;
 }
 .section-videos video {
   width: 100%;
   height: 100%;
+}
+
+.div-textvideo {
+  background-color: #172531;
+  margin-top: 20px;
+}
+.div-textvideo .h2-video {
+  color: #F8F4E3;
+}
+.div-textvideo .p-video {
+  color: #F8F4E3;
 }
 
 .section-eventos {
@@ -497,6 +514,9 @@ footer {
   }
   .section-eventos {
     flex-direction: column;
+  }
+  .card-espacios {
+    width: 18rem;
   }
   .grid-form {
     grid-template-columns: 1fr;
