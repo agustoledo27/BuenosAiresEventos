@@ -1,6 +1,7 @@
 @use '../utilities/variables';
 @use 'sass:color';
 @use '../utilities/mixins';
+@use '../utilities/extend';
 
 main {
     background-color: variables.$color-azul-claro;
@@ -111,9 +112,7 @@ h2 {
     
 
     .card-eventos {
-        background-color: variables.$color-azul-oscuro;
-        border-radius: 10px;
-        padding: 20px;
+        @extend %card;
         height: 55rem;
         width: 18rem;
         display: flex; 
@@ -150,9 +149,7 @@ h2 {
     }
 
     .card-espacios {
-        background-color: variables.$color-azul-oscuro;
-        border-radius: 10px;
-        padding: 20px;
+        @extend %card;
         height: 55rem;
         width: 28rem;
         display: flex; 

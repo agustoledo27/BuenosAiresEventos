@@ -77,6 +77,12 @@ header .navbar-toggler-icon {
   width: 400px;
 }
 
+.section-eventos .card-eventos, .section-eventos .card-espacios {
+  background-color: #172531;
+  border-radius: 10px;
+  padding: 20px;
+}
+
 main {
   background-color: #4D6473;
   border-bottom: 30px solid #4D6473;
@@ -180,9 +186,6 @@ h2 {
   gap: 40px;
 }
 .section-eventos .card-eventos {
-  background-color: #172531;
-  border-radius: 10px;
-  padding: 20px;
   height: 55rem;
   width: 18rem;
   display: flex;
@@ -226,9 +229,6 @@ h2 {
   transform: translate(2px, 2px);
 }
 .section-eventos .card-espacios {
-  background-color: #172531;
-  border-radius: 10px;
-  padding: 20px;
   height: 55rem;
   width: 28rem;
   display: flex;
