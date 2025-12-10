@@ -259,14 +259,14 @@ footer {
     padding: 0 15px;
   }
   .img-carrusel {
-    height: 470px !important;
+    height: 470px;
     width: 100%;
   }
   .li-nav {
     font-size: 18px;
   }
   .form-control {
-    width: 120px !important;
+    width: 120px;
   }
   .section-historia {
     max-width: 90%;
@@ -303,7 +303,7 @@ footer {
     height: auto;
   }
   .d-flex.mx-auto {
-    display: none !important;
+    display: none;
   }
   .ul-nav {
     flex-direction: column;

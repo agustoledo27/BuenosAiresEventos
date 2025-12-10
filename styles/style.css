@@ -103,7 +103,7 @@ main section img {
   padding: 20px;
 }
 main section .img-carrusel {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -426,14 +426,14 @@ h2 {
     padding: 0 15px;
   }
   .img-carrusel {
-    height: 470px !important;
+    height: 470px;
     width: 100%;
   }
   .li-nav {
     font-size: 18px;
   }
   .form-control {
-    width: 120px !important;
+    width: 120px;
   }
   .section-historia {
     max-width: 90%;
@@ -463,7 +463,7 @@ h2 {
     height: auto;
   }
   .d-flex.mx-auto {
-    display: none !important;
+    display: none;
   }
   .ul-nav {
     flex-direction: column;
