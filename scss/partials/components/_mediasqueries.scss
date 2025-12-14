@@ -190,11 +190,25 @@
     // Eventos
     .section-eventos {
     flex-direction: column;
+
+    p {
+        font-size: 16px;
+     }
 }
 
+
     //Espacios
+    .section-eventos {
+    
     .card-espacios {
-        width: 18rem;
+        width: 20rem;
+
+    p {
+        font-size: 18px;
+     }
+    }
+    
+}
       
 }
 
@@ -208,5 +222,5 @@
             grid-column: 1 / 2;
         }
     }
-}
+
 

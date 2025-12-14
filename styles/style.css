@@ -524,17 +524,23 @@ h2 {
   .section-eventos {
     flex-direction: column;
   }
-  .card-espacios {
-    width: 18rem;
+  .section-eventos p {
+    font-size: 16px;
   }
-  .grid-form {
-    grid-template-columns: 1fr;
-    max-width: 90%;
-    margin: 30px auto;
+  .section-eventos .card-espacios {
+    width: 20rem;
   }
-  .grid-form .col, .grid-form .mb-3:nth-of-type(3), .grid-form .mb-3:nth-of-type(4), .grid-form .form-submit {
-    grid-column: 1/2;
+  .section-eventos .card-espacios p {
+    font-size: 18px;
   }
+}
+.grid-form {
+  grid-template-columns: 1fr;
+  max-width: 90%;
+  margin: 30px auto;
+}
+.grid-form .col, .grid-form .mb-3:nth-of-type(3), .grid-form .mb-3:nth-of-type(4), .grid-form .form-submit {
+  grid-column: 1/2;
 }
 
 /*# sourceMappingURL=style.css.map */
