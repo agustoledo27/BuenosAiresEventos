@@ -49,7 +49,11 @@
         padding: 10px 20px;
         border: none;
         border-radius: 5px;
-        @include mixins.event-button();
+        @include mixins.event-button(
+            variables.$color-dorado,
+            variables.$color-azul-medio,
+            variables.$color-azul-oscuro
+        );
     }
 
     .form-group {

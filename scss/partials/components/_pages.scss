@@ -42,7 +42,10 @@ p {
 }
 
 .btn-presup{
-    @include mixins.event-button();
+    @include mixins.event-button(
+        variables.$color-dorado,
+        variables.$color-azul-medio,
+        variables.$color-azul-oscuro);
     padding: 10px;
     border-radius: 5px; 
 }
@@ -144,7 +147,11 @@ h2 {
         margin-top: 15px;
         padding: 10px;
         border-radius: 5px;
-        @include mixins.event-button();
+        @include mixins.event-button(
+            variables.$color-dorado,
+            variables.$color-azul-medio,
+            variables.$color-azul-oscuro
+        );
         
     }
 

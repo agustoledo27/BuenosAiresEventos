@@ -2,22 +2,25 @@
 @use 'sass:color'; 
 
 
-@mixin event-button() {
+@mixin event-button(
+  $base-color, 
+  $text-color, 
+  $hover-text-color) {
   font-size: 20px;
   text-decoration: none;
   display: inline-block;
   border: 1px solid transparent;
   cursor: pointer;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  color: variables.$color-azul-medio;
-  background-color: variables.$color-dorado; 
-  border: 1px solid variables.$color-dorado;
+  color: $text-color;
+  background-color: $base-color; 
+  border: 1px solid $base-color;
   
 
   &:hover { 
-    background-color: color.adjust(variables.$color-dorado, $lightness: -10%);
-    border-color: color.adjust(variables.$color-dorado, $lightness: -10%);
-    color: variables.$color-azul-oscuro; 
+    background-color: color.adjust($base-color, $lightness: -10%);
+    border-color: color.adjust($base-color, $lightness: -10%);
+    color: $hover-text-color; 
     transform: translate(2px, 2px);
   }
 }
