@@ -156,9 +156,8 @@ h2 {
   background-color: #172531;
 }
 .section-videos .div-video {
-  margin: 30px;
+  margin: 60px;
   width: 300px;
-  height: 400px;
 }
 .section-videos iframe {
   width: 100%;
@@ -391,6 +390,7 @@ h2 {
     width: 100%;
   }
   .div-video {
+    margin: 170px;
     width: 390px;
     height: 520px;
   }
